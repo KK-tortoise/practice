@@ -1,0 +1,17 @@
+.mainvisual {
+    & > img {
+        height: calc(100vh - 60px);
+    }
+}
+
+.bicycle {
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
